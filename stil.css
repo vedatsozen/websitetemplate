@@ -1,0 +1,291 @@
+
+
+body {
+
+font-family: 'Smooch Sans', sans-serif;;
+background-color: antiquewhite;
+margin: auto;
+margin:15px;
+text-align: right;
+
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: auto;
+    padding: 0px;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+ul li {
+
+    display: inline-block;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0px;
+    background-color:darkred;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+ul li:hover {
+
+background-color: rgb(179, 32, 32);
+letter-spacing: 3px;
+
+}
+
+ul li a { 
+
+
+text-decoration: none;
+color: white;
+font-size: 25px;
+cursor: pointer;
+
+}
+
+header {
+
+height: 150px;
+width:100%;
+margin-top:5px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 5px solid black;
+border-radius: 5px;
+background-color: black;
+box-sizing: border-box;
+
+
+}
+
+header.header2 {
+
+    height:150px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1.header2 {
+
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    }
+
+h1 {
+    font-size:80px;
+    color: darkred;
+    text-align: center;
+  
+}
+
+h1.textonimage {
+
+    font-size:40px;
+    color: white;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+
+
+main.ana {
+
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height:500px;
+    width: 90%;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5px;
+    background-image: url("https://images6.alphacoders.com/460/thumb-1920-460973.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+img {
+
+height:100%;
+width: 100%;
+
+}
+
+article {
+
+height: 500px;
+background-color: blueviolet;
+
+}
+
+article.article2 {
+
+    height:200px;
+    background-color:red ;
+    text-align: justify;
+    padding:10px;
+    color: white;
+
+    }
+
+    #threediv {
+
+height: 450px;
+display: flex;
+justify-content:space-around;
+margin-top: 5px;
+
+
+
+
+
+    }
+
+    #threediv > article { 
+        
+        background-color:firebrick; color:darkseagreen; border:1px solid black; width: 300px; height: 400px;
+        box-shadow: 4px 4px 4px black;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: justify;
+        transform: rotate(5deg);
+        
+        
+
+    }
+
+    #threediv > article:hover {
+
+
+ transition:ease-in 50ms;
+ cursor: pointer;
+ background-color: black;
+ transform: rotate(0deg);
+
+    }
+
+    .boxes {
+
+font-size: 13px;
+
+    }
+
+    main.contact {
+
+        text-align: center;
+        height:500px;
+        width: 100%;
+        background-color: black;
+        box-shadow: 4px 4px 4px black;
+        border-radius: 5px;
+        background-image: url("https://orthodigi.com/wp-content/uploads/2020/05/contact.jpg");
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: 100% 100%;
+        margin-top: 0px;
+        border: 1px solid ;
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+    }
+
+    footer {
+
+height:50px;
+width: 100%;
+background-color:beige;
+margin-top:10px;
+box-shadow: 4px 4px 4px black;
+border-radius: 5px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+  
+.gotop {
+
+    position:absolute;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+
+}
+
+table {
+
+margin: auto;
+text-align: center;
+color:brown;
+font-size: 20px;
+
+
+}
+
+
+
+.ph {
+
+height:100px;
+width: 200px;
+}
+
+img.arrow {
+
+margin: auto;
+height: 30px;
+width: 30px;
+display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+h1.contact {
+
+font-size: 80px;
+margin-top: 2px;
+margin: auto;
+text-align: center;
+
+}
+
+
+
+
+img.logo {
+
+display: flex;
+float: left;
+height: 70px;
+width: 120px;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
